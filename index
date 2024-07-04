@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon!</title>
+    <style>
+        body {
+            background: url('Padelrecorder_home_mobile.png') no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Helvetica, sans-serif;
+            color: white;
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 10px;
+        }
+        .subtext {
+            font-size: 0.8em;
+            margin: 5px 0;
+        }
+        a {
+            display: block;
+            margin: 10px 0;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            margin-bottom: 20px;
+        }
+        a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Coming Soon!</h1>
+    <p>Record, analyse and share your match with BoastAi! </p>
+    <p>To get early access register below </p>
+    <a href="https://dbktj5n8fxw.typeform.com/to/E7KHDdn1">Sign up now</a>
+    <p>Boast.Ai is developing the easiest way to record, store, analyse and share your padel matches, powered by Ai!</p>
+    <p>Launching in the Fall 2023!</p>
+</body>
+</html>
