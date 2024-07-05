@@ -1,55 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coming Soon!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
             background: url('Tennis_recorder_background.jpg') no-repeat center center fixed;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
             background-size: cover;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            font-family: Helvetica, sans-serif;
+            font-family: 'Lexend', sans-serif;
             color: white;
             text-align: center;
+            margin: 0;
+            padding: 0;
         }
+
         h1 {
+            font-size: 3em;
             margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
+
         .subtext {
-            font-size: 5em;
+            font-size: 1.5em;
             margin: 5px 0;
         }
-        a {
-            display: block;
+
+        p {
+            font-size: 1.2em;
             margin: 10px 0;
-            padding: 10px 20px;
-            background-color: #0056b3;
-            color: white;
-            border-radius: 5px;
-            text-decoration: none;
-            transition: background-color 0.3s ease;
-            margin-bottom: 20px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
         }
-        a:hover {
-            background-color: #000000;
+
+        .button {
+            display: inline-block;
+            margin: 20px 0;
+            padding: 15px 30px;
+            background-color: rgba(0, 86, 179, 0.8);
+            color: white;
+            border-radius: 25px;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+            transform: scale(1.05);
+        }
+
+        .content {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 15px;
+            max-width: 600px;
+            width: 90%;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .subtext {
+                font-size: 1.2em;
+            }
+
+            p {
+                font-size: 1em;
+            }
+
+            .button {
+                padding: 10px 20px;
+                font-size: 1em;
+            }
         }
     </style>
 </head>
-<body>
-    <h1>Coming Soon!</h1>
-    <p>Record, analyse and share your match with RacketRecorder! </p>
-    <p>Get early access register below </p>
-    <a href="https://dbktj5n8fxw.typeform.com/to/E7KHDdn1">Sign up now</a>
-    <p>RackerRecorder is developing the easiest way to record, watch, analyse and share your racket sport, powered by Ai!</p>
-    <p>Launching in the Fall 2024!</p>
-</body>
-</html>
 
+<body>
+    <div class="content">
+        <h1>Coming Soon!</h1>
+        <p class="subtext">Record, analyze, and share your match with RacketRecorder!</p>
+        <p>Get early access, register below:</p>
+        <a class="button" href="https://dbktj5n8fxw.typeform.com/to/E7KHDdn1">Sign up now</a>
+        <p>RacketRecorder is developing the easiest way to record, watch, analyze, and share your racket sport, powered by AI!</p>
+        <p>Launching in Fall 2024!</p>
+    </div>
+</body>
+
+</html>
